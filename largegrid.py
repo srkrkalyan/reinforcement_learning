@@ -10,6 +10,7 @@ import mdptoolbox
 import matplotlib.pyplot as plt
 from modifiedmdp import QLearning as ql
 
+# Environment creation
 rows = 20
 cols = 20
 actions = {0:'Up',1:'Right',2:'Down',3:'Left'}
